@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#008800"
+    >
+    
+	<TextView android:id="@+id/course"  
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content" 
+    	android:text="Course:"
+    	android:textColor="#FFFFFF"
+    	/>
+
+	<Spinner android:id="@+id/courseName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        android:layout_below="@id/course"
+        />
+    	
+    <Button android:id="@+id/decreaseHole"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/courseName"
+        android:text="&lt;"
+    	/>
+    	
+	<TextView android:id="@+id/holeNumber"  
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content" 
+        android:layout_below="@id/courseName"
+        android:layout_centerHorizontal="true"
+    	android:textSize="0.3in" 
+    	android:textStyle="bold" 
+    	android:text="Hole 1"
+    	android:textColor="#FFFFFF"
+    	/>
+    	
+    <Button android:id="@+id/increaseHole"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/courseName"
+        android:layout_alignParentRight="true"
+        android:text="&gt;"
+    	/>
+    	
+	<TextView android:id="@+id/yardage"  
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content" 
+        android:layout_below="@id/holeNumber"
+        android:layout_centerHorizontal="true"
+    	android:textSize="0.3in" 
+    	android:textStyle="bold" 
+    	android:text="x Yards"
+    	android:textColor="#FFFFFF"
+    	/>
+    	
+    <Button android:id="@+id/measureDrive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    	android:layout_alignParentBottom="true"
+        android:text="Measure Drive"
+    	/>
+    	
+ 	<TextView android:id="@+id/driveDistance"  
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content" 
+    	android:layout_alignParentBottom="true"
+    	android:layout_alignParentRight="true"
+    	android:textSize="0.3in" 
+    	android:textColor="#FFFFFF"
+    	/>
+    	
+</RelativeLayout>

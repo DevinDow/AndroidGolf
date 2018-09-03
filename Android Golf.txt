@@ -1,11 +1,9 @@
-# AndroidGolf
-
-## DESCRIPTION:
+DESCRIPTION:
 Android Golf turns your GPS enabled Android device into a yardage measuring tool for reporting yardages to Greens and lengths of Drives.
 There are many commercial GPS based devices for sale for $200 and up that do the same thing your GPS enabled Android device can do with Android Golf.
 
 
-## HOW TO USE IT:
+HOW TO USE IT:
 - Drive Measurement :
 	Click the "Measure Drive" button on the tee, then go to a drive to read how far it is.  Clicking "Measure Drive" again will end measuring, and clicking again on the next tee will begin again.
 - Distance to Green :
@@ -13,12 +11,12 @@ There are many commercial GPS based devices for sale for $200 and up that do the
 	You will need to go to each green center and click "Update Green Center" before you can use it on that hole.  This means Android Golf is most useful for someone who plays a home course or two often.
 
 
-## FUTURE ENHANCEMENTS:
+FUTURE ENHANCEMENTS:
 - Download course data from existing data providers, eliminating the need to set Green Centers yourself. 
 - Log drive distances (or all shot distances & locations) to review later.
 
 
-## NOTES: 
+NOTES: 
 "emulator -wipe-data" might be required if you are getting any "broadcast null" intent errors.
 
 
